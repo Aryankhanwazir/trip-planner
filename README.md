@@ -100,3 +100,47 @@ graph TD
      ```
      (Or use the kill port command listed in `Makefile`).
 
+---
+
+## 📁 Assets
+
+- ![Workflow Architecture Diagram](assets/architecture_diagram.png)
+- ![Cover Banner](assets/cover_page_banner.png)
+
+---
+
+## 📜 Demo Script
+
+The narration and walkthrough script for video presentations is available in:
+- [DEMO_SCRIPT.txt](DEMO_SCRIPT.txt)
+
+---
+
+## 🐙 Push to GitHub
+
+1. Create a new repo at [https://github.com/new](https://github.com/new)
+   - Name: `trip-planner`
+   - Visibility: Public or Private
+   - Do **NOT** initialize with README
+
+2. In your terminal, navigate into your project folder:
+   ```bash
+   cd trip-planner
+   git init
+   git add .
+   git commit -m "Initial commit: trip-planner ADK agent"
+   git branch -M main
+   git remote add origin https://github.com/<your-username>/trip-planner.git
+   git push -u origin main
+   ```
+
+3. Verify `.gitignore` includes:
+   ```
+   .env          ← your API key — must NEVER be pushed
+   .venv/
+   __pycache__/
+   *.pyc
+   .adk/
+   ```
+
+⚠ **NEVER push `.env` to GitHub.** Your API key will be exposed publicly.
