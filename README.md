@@ -1,5 +1,3 @@
-![Cover Banner](assets/cover_page_banner.png)
-
 # ✈️ trip-planner — Secure Multi-Agent Travel Planner
 
 An intelligent, secure travel planner built with the Google Agent Development Kit (ADK 2.0) and Model Context Protocol (MCP). It features an orchestrator workflow, specialized sub-agents, local domain-specific tools via MCP, a security checkpoint node, and human-in-the-loop validation.
